@@ -1,14 +1,13 @@
 {
   "name": "utiLib",
   "version": "0.0.1",
-  "description": "my li'l node lib of functions I made for various tasks",
+  "description": "various interesting functions/utilities",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm test"
   },
   "author": "BSOrider",
   "license": "ISC",
   "dependencies": {
-    "mocha": "^3.0.2",
-    "uglify-js": "^2.7.3"
+    "mocha": "^3.0.2"
   }
 }
