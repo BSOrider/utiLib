@@ -1,20 +1,7 @@
 {
   "name": "utiLib",
   "version": "0.0.1",
-<<<<<<< HEAD
-  "description": "various interesting functions/utilities",
-  "scripts": {
-    "test": "mocha test --ui bdd --check-leaks --slow 50 --timeout 20s --recursive"
-  },
-  "author": "BSOrider",
-  "license": "ISC",
-  "dependencies": {
-    "mocha": "^3.0.2",
-    "prompt": "^1.0.0"
-  }
-=======
   "description": "various functions/utilities",
   "author": "BSOrider",
   "license": "ISC",
->>>>>>> testing
 }
