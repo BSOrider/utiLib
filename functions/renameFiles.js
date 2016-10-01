@@ -1,10 +1,11 @@
 //Modify names of files in specific directory
 
-var dir = "/media/acr/4419-7314/A7X/";
+// var dir = "/media/ike/4419-7314/Metallica/";
+var dir = "/home/ike/Music/Metallica/";
 
-var toReplace = "Avenged Sevenfold";
+var toReplace = " -";
 
-var replaceWith = "A7X";
+var replaceWith = "-";
 
 var fs = require("fs");
 
@@ -15,7 +16,7 @@ fs.readdir(dir, function(err, files) {
     console.log("ready to rename " + name);
     name = name.replace(toReplace, replaceWith);
     console.log("renaming to " + name);
-    fs.rename(dir + files[i], dir + name, function(err) {
+    fs.renameSync(dir + files[i], dir + name, function(err) {
       if (err) {
         console.log(err);
       } else {

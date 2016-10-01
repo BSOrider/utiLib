@@ -4,7 +4,7 @@ var cadence = 90;
 
 var ring = 48;
 
-var cog = 14;
+var cog = 21;
 
 var wheel = 26;
 
